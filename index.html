@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hi-mr Didi Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="shadow-md bg-white sticky top-0 z-50">
+    <nav class="max-w-7xl mx-auto flex items-center justify-between p-4">
+      <h1 class="text-xl font-bold text-blue-600">Hi-mr Didi Store</h1>
+      <div class="flex space-x-6 text-sm font-medium">
+        <a href="#" class="hover:text-blue-500">Home</a>
+        <a href="#" class="hover:text-blue-500">Shop</a>
+        <a href="#" class="hover:text-blue-500">Deals</a>
+        <a href="#" class="hover:text-blue-500">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Category Section -->
+  <section class="max-w-7xl mx-auto px-4 py-6">
+    <div class="grid grid-cols-3 sm:grid-cols-6 gap-6 text-center">
+      <div class="cursor-pointer">
+        <img src="https://i.ibb.co/Y8JCbTr/kids.png" class="w-16 mx-auto" alt="Kids" />
+        <p class="mt-2 text-sm font-medium">Kids</p>
+      </div>
+      <div class="cursor-pointer">
+        <img src="https://i.ibb.co/37tmfrN/beauty.png" class="w-16 mx-auto" alt="Beauty" />
+        <p class="mt-2 text-sm font-medium">Beauty</p>
+      </div>
+      <div class="cursor-pointer">
+        <img src="https://i.ibb.co/6r42Dn7/shoes.png" class="w-16 mx-auto" alt="Footwear" />
+        <p class="mt-2 text-sm font-medium">Footwear</p>
+      </div>
+      <div class="cursor-pointer">
+        <img src="https://i.ibb.co/VjPJDgC/jewelry.png" class="w-16 mx-auto" alt="Jewelry" />
+        <p class="mt-2 text-sm font-medium">Jewelry</p>
+      </div>
+      <div class="cursor-pointer">
+        <img src="https://i.ibb.co/prJXHWd/women.png" class="w-16 mx-auto" alt="Women" />
+        <p class="mt-2 text-sm font-medium">Women</p>
+      </div>
+      <div class="cursor-pointer">
+        <img src="https://i.ibb.co/cctfQND/men.png" class="w-16 mx-auto" alt="Men" />
+        <p class="mt-2 text-sm font-medium">Men</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sales Banner -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-gradient-to-r from-blue-600 to-indigo-500 text-white p-6 rounded-2xl flex flex-col justify-center">
+        <p class="text-lg">Welcome To Hi-mr Didi Store</p>
+        <h2 class="text-3xl font-bold my-2">Flat 50% OFF</h2>
+        <p class="mb-4">Free Shipping Till Midnight</p>
+        <button class="px-4 py-2 bg-white text-blue-600 font-semibold rounded-lg w-max">Shop Now</button>
+      </div>
+      <div class="bg-gradient-to-r from-pink-500 to-red-500 text-white p-6 rounded-2xl flex flex-col justify-center">
+        <p class="text-lg">Welcome To Hi-mr Didi Store</p>
+        <h2 class="text-3xl font-bold my-2">Buy 1 Get 1 Free</h2>
+        <p class="mb-4">Limited Time Offer</p>
+        <button class="px-4 py-2 bg-white text-pink-600 font-semibold rounded-lg w-max">Shop Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deals of the Day -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="text-xl font-bold">Deals of the Day</h2>
+      <a href="#" class="text-blue-600 hover:underline">See All</a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Product -->
+      <div class="bg-white shadow rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition">
+        <img src="https://i.ibb.co/wLY5nTM/deal-1.jpg" class="w-full h-48 object-cover" />
+        <div class="p-4">
+          <p class="font-medium">Pink Hoodie T-shirt Full</p>
+          <p class="text-sm text-gray-500">by Hi-mr Didi</p>
+          <p class="mt-2 font-bold">$32.00 <span class="line-through text-gray-400 ml-2">$35.00</span> <span class="text-green-600 ml-2">20% Off</span></p>
+        </div>
+      </div>
+
+      <!-- Another Product -->
+      <div class="bg-white shadow rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition">
+        <img src="https://i.ibb.co/2PXPPxC/2.jpg" class="w-full h-48 object-cover" />
+        <div class="p-4">
+          <p class="font-medium">Men Blue Denim Jacket</p>
+          <p class="text-sm text-gray-500">by JS Clothings</p>
+          <p class="mt-2 font-bold">$32.00 <span class="text-green-600 ml-2">SAVE 20%</span></p>
+        </div>
+      </div>
+
+      <!-- Another Product -->
+      <div class="bg-white shadow rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition">
+        <img src="https://i.ibb.co/TvhsX7J/3.jpg" class="w-full h-48 object-cover" />
+        <div class="p-4">
+          <p class="font-medium">Brown Quality Cardigan</p>
+          <p class="text-sm text-gray-500">by Hi-mr Didi</p>
+          <p class="mt-2 font-bold">$32.00 <span class="line-through text-gray-400 ml-2">$35.00</span> <span class="text-green-600 ml-2">20% Off</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offer Corner -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <h2 class="text-xl font-bold mb-4">Offer Corner</h2>
+    <div class="flex flex-wrap gap-4">
+      <button class="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg">Under $50</button>
+      <button class="px-4 py-2 bg-pink-100 text-pink-700 rounded-lg">Flat $20 OFF</button>
+      <button class="px-4 py-2 bg-green-100 text-green-700 rounded-lg">Buy 1 Get 1</button>
+      <button class="px-4 py-2 bg-yellow-100 text-yellow-700 rounded-lg">Upto 50% OFF</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 text-center py-6 mt-8">
+    <p>&copy; 2025 Hi-mr Didi Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
